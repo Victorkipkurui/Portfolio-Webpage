@@ -1,132 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UTF-8" />
-    <title>Victor's Portfolio</title>
-    <link rel="icon" type="icon" href="D:\Personal\Camera\me.jpg"> 
-    <style>
-        li {
-             float: left;
-             list-style-type: none;}
-             
-        li a {
-            display:block;
-            color: rgb(12, 1, 1);
-            text-align: center;
-            padding: 10px;
-            text-decoration: none;}
 
-        li a:hover {
-            background-color:#2714147c;}
-        
-        body {
-            background-color:cornsilk;
-            font-family:Arial, Helvetica, sans-serif;
-            }
-        
-        header {font-size:20px; color:black; font-family:Arial, Helvetica, sans-serif; font-weight: bold;
-                     }
+   <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        p {font-size:18px; color:black; font-family:Arial, Helvetica, sans-serif'
-                           }
-
-        h1{
-            color:rgb(46, 0, 250); font-size:30px; text-align: center; text-decoration: underline;
-                 }
-        h2{
-            color:rgb(46, 0, 250); font-size:20px; text-align: center; text-decoration:underline;
-        }
-
-        .about {
-            display: flex;   
-        }
-    </style>
-  </head>
-<body>
-    <header> 
+        <title>Victor's Portfolio</title>
+        <link rel="icon" type="icon" href="D:\Personal\Camera\me.jpg"> 
+        <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <header>
          <nav>
-               <li> <a href="#Home">Home</a></li>
-               <li> <a href="#About">About</a></li>
-               <li> <a href="#Skills"> Skills</a></li>
-               <li> <a href="Projects"> Projects</a></li>
-               <li> <a href="Certifications">Certifications</a></li>
-               <li> <a href= "Contacts"> Contacts</a></li>
-         </nav>
-     </header>
-    <br><br><hr>
-    <main>
-        <section>
-             <h1>About me</h1>
-             <div class="about">
-                <p><img src="D:\Personal\Camera\DSC_0128.jpg"style="height:300px;width:200px; margin-right:40px"></p>
-                <br>
-                 <p> I'm Victor Kipkurui a finance graduate and a technology enthusiast in Artificial Intelligence.<br>
-                  With a solid foundation in finance and expertise in using python programming,I develop <br>
-                  sophisticated machine-learning models. My unique blend of expertise in finance and <br>
-                  AI positions me as a forward-thinking professional eager to innovate and drive progress in the tech industry.</p>
-                  <br>
+             <div class="navbar">      
+                 <ul>
+                     <li> <a href="#About">About</a></li>
+                     <li> <a href="#Skills"> Skills</a></li>
+                     <li> <a href="#Projects"> Projects</a></li>
+                     <li> <a href="#Certifications">Certifications</a></li>
+                     <li> <a href="#Contacts"> Contacts</a></li>
+                  </ul>
              </div>
-              <h2>TOOLS I USE</h2>
-           
-              <div class="tools">
-                  <img src="D:\Downloads\python imag.jpeg" style="height:30px;width:120px">
-                  <img src="D:\Downloads\PyTorch_logo_black.svg.png" style="height: 30px;;width: 120px;;">
-                  <img src="D:\Downloads\tensor png.png" style="height: 30px;;width: 120px;">
-                  <img src="D:\Downloads\postre.png" style="height: 100px;;width: 140px;">
-                  <img src="D:\Downloads\hugg.png" style="height: 50px;;width: 140px;">
-                  <img src="D:\Downloads\flask u.png" style="height: 120px;;width: 140px;">
-                  <img src="D:\Downloads\scikit learn.png" style="height: 100px;;width: 140px;">
-                  <img src="D:\Downloads\pandas.png" style="height: 50px;;width: 140px;">
-                  <img src="D:\Downloads\albumentation.png"style="height: 50px;;width: 150px;">
-                  <br>
+         </nav>
+       </header>
+     <main>
+         <section>
+             <h1>About me</h1>
+              <div id="About" class="about">
+                 <p><img src="D:\Personal\Camera\77175882_1227256704124344_4996071542581362688_n.jpg"style="height:400px;width:300px; margin-right:40px"></p>
+                 <br>
+                 <p> 
+                      I'm Victor Kipkurui a finance graduate and a technology enthusiast in Artificial Intelligence.<br>
+                      With a solid foundation in finance and expertise in using python programming,I develop <br>
+                      sophisticated machine-learning models. My unique blend of expertise in finance and <br>
+                      AI positions me as a forward-thinking professional eager to innovate and drive progress in the tech industry.
+                 </p>
+                 <br>
               </div>
-           <hr>
-        </section>
-        <section>
-            <h1> Skills</h1>
-            <div class="skills">
-             <p> Am highly skilled and motivated professional with extensive experience in web development, data preprocessing, feature engineering and model evaluation techniques.
-                Proficient in HTML, CSS, Python and various machine learning frameworks and libraries such as TensorFlow, PyTorch, scikit-learn. I excel in designing and implementing
-                sophisticated models and creating compelling visualizations to drive data-driven decision-making. I am a good communicator, willing to learn and able to work with a team.
-                With a strong foundation in finance and a passion for technology, I bring a unique blend of problem-solving skills and technical expertise to every project. </p>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <h1> Certifications</h1>
-            <div class="certifications">
-            <p> 
-                <img src="D:\Downloads\Victor Kipkurui - Intro to Machine Learning.png" alt="machine-learning" style="height:200px;width:300px">
-                <img src="D:\Personal\Certifications\Foundations of Cybersecurity_page-0001.jpg" alt="Foundations of Cybersecurity" style="height:200px;width:300px"> 
-                <img src="D:\Personal\Certifications\40-alx-aice-ai-career-essentials-certificate-victor-kipkurui.png" alt="Artificial Intelligence" style="height:200px;width:300px">
-                <img src="D:\Personal\Certifications\hzmoNKtzvAzXsEqx8_Accenture North America_iavbesmDK4WydB283_1715163161981_completion_certificate_page-0001.jpg" alt="Data visualization" style="height:200px;width:300px">
-            </p>
-          </div>
-        </section>
-        <hr>
-        <section>
-            <h1> Contacts</h1>
-            <div class="contacts">
-                     <img src="D:\Downloads\LinkedIn_logo_initials.png" alt="LinkedIn" style="height: 32px;width: 32px;"></a></p>
+              <hr>
+         </section>
+
+         <section>
+             <h1> Skills</h1>
+             <div id="Skills" class="skills">
+                 <p> 
+                     Am highly skilled and motivated professional with extensive experience in web development, data preprocessing, feature engineering and model evaluation techniques.
+                     Proficient in HTML, CSS, Python and various machine learning frameworks and libraries such as TensorFlow, PyTorch, scikit-learn. I excel in designing and implementing
+                     sophisticated models and creating compelling visualizations to drive data-driven decision-making. I am a good communicator, willing to learn and able to work with a team.
+                     With a strong foundation in finance and a passion for technology, I bring a unique blend of problem-solving skills and technical expertise to every project. 
+                 </p>
+             </div>
+             
+             <h2>TOOLS I USE</h2>
+             <div class="tools">
+                 <img src="D:\Downloads\python imag.jpeg" style="height:30px;width:120px">
+                 <img src="D:\Downloads\PyTorch_logo_black.svg.png" style="height: 30px;;width: 120px;;">
+                 <img src="D:\Downloads\tensor png.png" style="height: 30px;;width: 120px;">
+                 <img src="D:\Downloads\postre.png" style="height: 100px;;width: 140px;">
+                 <img src="D:\Downloads\hugg.png" style="height: 50px;;width: 140px;">
+                 <img src="D:\Downloads\flask u.png" style="height: 120px;;width: 140px;">
+                 <img src="D:\Downloads\scikit learn.png" style="height: 100px;;width: 140px;">
+                 <img src="D:\Downloads\pandas.png" style="height: 50px;;width: 140px;">
+                 <img src="D:\Downloads\albumentation.png"style="height: 50px;;width: 150px;">
+                 <br>
+             </div>
+             
+             <hr>
+          </section>
+        
+          <section>
+             <h1> Certifications</h1>
+             <div id="Certifications" class="certifications">
+                 <p> 
+                     <img src="D:\Downloads\Victor Kipkurui - Intro to Machine Learning.png" alt="machine-learning" style="height:300px;width:400px;margin-right:30px;margin-left:30px">
+                     <img src="D:\Personal\Certifications\Foundations of Cybersecurity_page-0001.jpg" alt="Foundations of Cybersecurity" style="height:300px;width:400px;margin-right:30px;"> 
+                     <img src="D:\Personal\Certifications\40-alx-aice-ai-career-essentials-certificate-victor-kipkurui.png" alt="Artificial Intelligence" style="height:250px;width:400px;margin-right:30px;">
+                 </p>
+                 <p>
+                     <img src="D:\Personal\Certifications\hzmoNKtzvAzXsEqx8_Accenture North America_iavbesmDK4WydB283_1715163161981_completion_certificate_page-0001.jpg" alt="Data visualization" style="height:300px;width:400px;margin-right:20px;margin-left:20px">
+                     <img src="D:\Personal\Certifications\CommonWealth Job Simulation Certificate_page-0001.jpg" alt="machine-learning" style="height:300px;width:400px;margin-right:20px;margin-left:20px">
+                     <img src="D:\Personal\Certifications\Managing security Risks Google_page-0001.jpg" alt="machine-learning" style="height:300px;width:400px;margin-right:20px;margin-left:20px">
+                  </p>
+              </div>
+              <hr>
+          </section>
+         
+          <section>
+               <h1 > Contacts</h1>
+               <div id="Contacts" class="contacts" >
+                     <img src="D:\Downloads\LinkedIn_logo_initials.png" alt="LinkedIn" style="height: 32px;width: 32px; margin-left:20px; margin-top: 20px;"></a>
                      <p> LinkedIn<br> <a href="https://www.linkedin.com/in/victor-kipkurui">https://www.linkedin.com/in/victor-kipkurui</a></p>
 
-                     <img src="D:\Downloads\githun.png" alt="github" style="height: 32px;width: 50px;">
+                     <img src="D:\Downloads\githun.png" alt="github" style="height: 32px;width: 50px; margin-left:20px; margin-top: 20px;">
                      <p>Github <br> <a href="https://github.com/Victorkipkurui"> https://github.com/Victorkipkurui</a></p>
 
-                     <img src="D:\Downloads\email pnr.png" alt="Email" style="height: 32px;width: 32px;">
+                     <img src="D:\Downloads\email pnr.png" alt="Email" style="height: 32px;width: 32px; margin-left:20px; margin-top: 20px;">
                      <p>Email <br> <a href="https://kipkuruivictor23@gmail.com"> kipkuruivictor23@gmail.com</a></p>
 
-                     <img src="D:\Downloads\Phone_icon.png" alt="Call" style="height: 32px;width: 32px;">
+                     <img src="D:\Downloads\Phone_icon.png" alt="Call" style="height: 32px;width: 32px; margin-left:20px; margin-top: 20px;">
                      <p>Call<br>+254715826509</p>
-            </div>
-        </section>
-        <br><br><hr>
-        <footer style="text-align: center; background-color:white;">
-            <p style="color:rgba(0, 0, 0, 0.774); font-size:30px; font-family:Arial, Helvetica, sans-serif; font-weight:bolder"> Victor Kipkurui</p>
-            <p style="color:rgb(6, 20, 20); font-size:16px; font-family:Arial, Helvetica, sans-serif; font-style:italic;"> Data Scientist | WebScraper</p>
-            <br>
-            ©2024 Victor Kipkurui.All rights reserved.
-        </footer>
-    </main> 
-</body>
+              </div>
+          </section>
+          <br>
+          <br>
+          <hr>
+           <footer id="footer">
+              <p style="color:rgba(0, 0, 0, 0.774); font-size:30px; font-family:Arial, Helvetica, sans-serif; font-weight:bolder"> Victor Kipkurui</p>
+              <p style="color:rgb(6, 20, 20); font-size:16px; font-family:Arial, Helvetica, sans-serif; font-style:italic;"> DataScientist | WebScraper | WebDeveloper</p>
+              <br>
+               ©2024 Victor Kipkurui.All rights reserved.
+          </footer>
+        </main> 
+   </body>
 </html>
